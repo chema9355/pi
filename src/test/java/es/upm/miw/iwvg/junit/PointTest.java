@@ -22,7 +22,7 @@ public class PointTest {
     @Test
     public void testPunto() {
         pt = new Point();
-        assertEquals(0, pt.getX());
+        assertEquals(2, pt.getX());
         assertEquals(0, pt.getY());
     }
 
