@@ -15,7 +15,7 @@ public class PointTest {
 
     @Test
     public void testPuntoIntInt() {
-        assertEquals(3, pt.getX());
+        assertEquals(2, pt.getX());
         assertEquals(3, pt.getY());
     }
 
@@ -28,7 +28,7 @@ public class PointTest {
 
     @Test
     public void testModulo() {
-        assertEquals(3.6055, pt.module(), 10e-5);
+        assertEquals(3.16227, pt.module(), 10e-5);
     }
 
     @Test
